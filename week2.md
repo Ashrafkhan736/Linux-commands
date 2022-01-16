@@ -1,14 +1,15 @@
-# Table of content
+# Table of content <!-- omit in toc -->
 
-- [ls command](#ls)
-- [Commands used for reading text file](#less)
-- [Commands used to get information about other commands](#helpers)
-- [Alias command](#alias)
-- [commands used to get info about file size](#size)
-- [Shell variable and echo command](#variables)
-- [Process managment](#process)
-
-## ls
+- [ls command](#ls-command)
+- [Commands used for reading text file](#commands-used-for-reading-text-file)
+- [Commands used to get information about other commands](#commands-used-to-get-information-about-other-commands)
+- [Alias command](#alias-command)
+- [commands used to get info about file size](#commands-used-to-get-info-about-file-size)
+- [Shell variable and echo command](#shell-variable-and-echo-command)
+- [Process managment](#process-managment)
+- [tips](#tips)
+  
+## ls command
 
 >**ls -l** command list information about file present in current working directory.
 >
@@ -35,7 +36,7 @@
 >>drwxrwxr-x 4 ashraf ashraf 4096 Jan  4 12:31 DSA_with_python
 >>```
 
-## less
+## Commands used for reading text file
 >
 >- **less**
 >
@@ -78,7 +79,7 @@
 >>
 >>This says file has 11727 lines, 59804 words and 2646559 byte is the size of a file.
 >>
-## helpers
+## Commands used to get information about other commands
 >
 >- **apropos**
 >>
@@ -133,7 +134,7 @@
 >type is a shell builtin
 >```
 
-## alias
+## Alias command
 
 >alias helps in creating short commannds by combaining default commands with some useful options.
 >
@@ -164,7 +165,7 @@
 >alias ll='ls -alF'
 >```
 
-## size
+## commands used to get info about file size
 >
 >- ls -s command list file with it's size and -h can be use to get human readable output.
 >
@@ -191,7 +192,7 @@
 >2.6M BDM W1 - W4 Notes.pdf
 >```
 
-## variables
+## Shell variable and echo command
 >
 >- **echo** It works same as print function in python
 >
@@ -233,7 +234,7 @@
 >- **$?**  return code of previously run program
 >- **$-**  return flags set in bash shell
 
-## process
+## Process managment
 
 - Use of **&** to run a job in the background.
 
@@ -402,7 +403,7 @@ Desktop Documents Downloads
 
 ## tips
 
-- **ls *** lists all the file present in `pwd` and directories with the file them in following manner.
+- **ls** * lists all the file present in `pwd` and directories with the file them in following manner.
 
 ```bash
 (base) ashraf@320:~/Downloads$ ls * -l
